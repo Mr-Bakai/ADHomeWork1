@@ -8,20 +8,20 @@
     android:background="@color/black"
     tools:context=".SecondActivity">
 
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:src="@drawable/netflix"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enjoy your watch!"
-        android:textColor="@color/red"
-        android:textSize="30sp"
-        android:fontFamily="@font/bebasneue_book"
-        android:textStyle="bold"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
-
+        style="@style/forEnjoy"
+         />
 </androidx.constraintlayout.widget.ConstraintLayout>
