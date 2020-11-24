@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ADHomeWork1</string>
+    <string name="netflix">NETFLIX</string>
+    <string name="signIn">Sign In</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+</resources>
