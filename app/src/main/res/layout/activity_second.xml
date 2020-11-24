@@ -8,6 +8,7 @@
     android:background="@color/black"
     tools:context=".SecondActivity">
 
+
     <ImageView
         android:layout_width="360dp"
         android:layout_height="200dp"
